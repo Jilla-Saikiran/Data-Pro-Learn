@@ -250,7 +250,7 @@
                         </div>
                     </div>
                     <div class="canvas-logo">
-                        <a href="index.php"><img src="assets/images/logo.jpeg" alt="logo"></a>
+                        <a href="index-2.php"><img src="assets/images/logo.jpeg" alt="logo"></a>
                     </div>
                     <div class="offcanvas-text">
                         <p>We are Partnered with</p>
@@ -338,7 +338,9 @@
                                                </li>
                                            </ul>
                                        </div>
-                                       <button class="btn btn-primary" type="button">ADD TO CART</button>
+                                       <div class="btn-part">
+                                        <a href="python.php">Apply Now<i class="flaticon-right-arrow"></i></a>
+                                    </div>
                                    </div>
                                </div>
                            </div>
