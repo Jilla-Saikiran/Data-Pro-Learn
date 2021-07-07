@@ -104,68 +104,68 @@
                                             <li class="current-menu-item"> <a href="index.php">Home</a></li>
 
                                              <li class="menu-item-has-children">
-                                                 <a href="course-categories.html">Courses</a>
+                                                 <a href="course-categories.php">Courses</a>
                                                  <ul class="sub-menu"> 
-                                                    <li><a href="programming.html">Programming</a> 
+                                                    <li><a href="programming.php">Programming</a> 
                                                     <ul class="sub-menu right">
-                                                        <li><a href="python.html">Python
+                                                        <li><a href="python.php">Python
                                                             (Beginner Level to Master)
                                                         </a></li>
-                                                        <li><a href="r.html">R
+                                                        <li><a href="r.php">R
                                                             (Beginner Level to Master)</a></li>
-                                                        <li><a href="scala.html">Scala
+                                                        <li><a href="scala.php">Scala
                                                             (Beginner Level to Master)
                                                         </a></li>
                                                       </ul>
                                                     </li>
-                                                    <li><a href="data-science.html">Data Science & AI</a> 
+                                                    <li><a href="data-science.php">Data Science & AI</a> 
                                                         <ul class="sub-menu right">
-                                                            <li><a href="machine-learning-py.html">Statistics,Machine Learning & NLP-Python</a></li>
-                                                            <li><a href="machine-learning-r.html">Statistics,Machine Learning & NLP with R</a></li>
-                                                            <li><a href="NLP-Python-R-BigData-Spark.html">Statistics,
+                                                            <li><a href="machine-learning-py.php">Statistics,Machine Learning & NLP-Python</a></li>
+                                                            <li><a href="machine-learning-r.php">Statistics,Machine Learning & NLP with R</a></li>
+                                                            <li><a href="NLP-Python-R-BigData-Spark.php">Statistics,
                                                                 MachineLearning,
                                                                 NLP-Python-R-BigData-Spark</a></li>
-                                                                <li><a href="Deep-learning-with-TensorFlow.html">Deep learning with TensorFlow</a></li>
+                                                                <li><a href="Deep-learning-with-TensorFlow.php">Deep learning with TensorFlow</a></li>
                                                           </ul>
                                                     </li>
-                                                    <li><a href="big-data.html">Big Data & Data Ware House</a> 
+                                                    <li><a href="big-data.php">Big Data & Data Ware House</a> 
                                                         <ul class="sub-menu right">
-                                                            <li><a href="hadoop-pyspark.html">Hadoop - Spark & PySpark</a></li>
-                                                            <li><a href="hadoop-spark.html">Hadoop - Spark for Data Engineering & DWH</a></li>
-                                                            <li><a href="spark-data-science.html">Spark for Data Science - Machine Learning & NLP</a></li>
-                                                            <li><a href="mongodb.html">NOSQL - MongoDB</a></li>
-                                                            <li><a href="cassandra.html">NOSQL - Cassandra</a></li>
-                                                            <li><a href="hbase.html">NOSQL - HBase</a></li>
-                                                            <li><a href="data-bricks.html">DataBricks - Spark (Scala) PySpark (Python)</a></li>
+                                                            <li><a href="hadoop-pyspark.php">Hadoop - Spark & PySpark</a></li>
+                                                            <li><a href="hadoop-spark.php">Hadoop - Spark for Data Engineering & DWH</a></li>
+                                                            <li><a href="spark-data-science.php">Spark for Data Science - Machine Learning & NLP</a></li>
+                                                            <li><a href="mongodb.php">NOSQL - MongoDB</a></li>
+                                                            <li><a href="cassandra.php">NOSQL - Cassandra</a></li>
+                                                            <li><a href="hbase.php">NOSQL - HBase</a></li>
+                                                            <li><a href="data-bricks.php">DataBricks - Spark (Scala) PySpark (Python)</a></li>
                                                           </ul>
                                                     </li>
-                                                    <li><a href="cloud.html">Cloud</a> 
+                                                    <li><a href="cloud.php">Cloud</a> 
                                                         <ul class="sub-menu right">
-                                                            <li><a href="az-204.html">AZ-204 - Developing Solutions for Microsoft Azure</a></li>
-                                                            <li><a href="az-304.html">AZ-304 - Microsoft Azure Architect Design</a></li>
-                                                            <li><a href="az-404.html">Exam AZ-400: Designing and Implementing Microsoft DevOps Solutions</a></li>
-                                                            <li><a href="data-bricks.html">DataBricks - Spark (Scala) PySpark (Python)</a></li>
+                                                            <li><a href="az-204.php">AZ-204 - Developing Solutions for Microsoft Azure</a></li>
+                                                            <li><a href="az-304.php">AZ-304 - Microsoft Azure Architect Design</a></li>
+                                                            <li><a href="az-404.php">Exam AZ-400: Designing and Implementing Microsoft DevOps Solutions</a></li>
+                                                            <li><a href="data-bricks.php">DataBricks - Spark (Scala) PySpark (Python)</a></li>
                                                           </ul>
                                                     </li>
-                                                    <li><a href="business.html">Business Analytics</a> 
+                                                    <li><a href="business.php">Business Analytics</a> 
                                                         <ul class="sub-menu right">
-                                                            <li><a href="pl-sql.html">SQL PL-SQL</a></li>
-                                                            <li><a href="tableau.html">Tableau, Qlik View & PowerBI</a></li>
+                                                            <li><a href="pl-sql.php">SQL PL-SQL</a></li>
+                                                            <li><a href="tableau.php">Tableau, Qlik View & PowerBI</a></li>
                                                             
                                                           </ul>
                                                     </li>
-                                                    <li><a href="dev-ops.html">Dev-ops</a> 
+                                                    <li><a href="dev-ops.php">Dev-ops</a> 
                                                         <ul class="sub-menu right">
-                                                            <li><a href="dev-ops-engineer.html">Dev-Ops Engineer</a></li>
-                                                            <li><a href="ml-ops.html">ML-Ops for Data Science</a></li>
+                                                            <li><a href="dev-ops-engineer.php">Dev-Ops Engineer</a></li>
+                                                            <li><a href="ml-ops.php">ML-Ops for Data Science</a></li>
                                                         </ul>
                                                     </li>
                                                  </ul>
                                                </li>
-                                                <li><a href="about.html">About Us</a></li>
-                                                <li><a href="blog-single.html">Blog</a></li>
-                                                <li><a href="Forum.html">Forum</a></li>
-                                                <li><a href="contact.html">Contact</a></li>
+                                                <li><a href="about.php">About Us</a></li>
+                                                <li><a href="blog-single.php">Blog</a></li>
+                                                <li><a href="Forum.php">Forum</a></li>
+                                                <li><a href="contact.php">Contact</a></li>
                                                  
                                            </ul> <!-- //.nav-menu -->
                                          
@@ -191,11 +191,11 @@
                                                                 <a href="#"><i class="fa fa-times"></i></a>
                                                             </div>
                                                             <div class="product-info">
-                                                                <a href="cart.html">Python</a><br>
+                                                                <a href="cart.php">Python</a><br>
                                                                 <span class="quantity">1 × &#8377 5999.00/-</span>
                                                             </div>
                                                             <div class="product-image">
-                                                                <a href="cart.html"><img src="assets/images/courses/programming/py.jpeg" alt="Product Image"></a>
+                                                                <a href="cart.php"><img src="assets/images/courses/programming/py.jpeg" alt="Product Image"></a>
                                                             </div>
                                                         </li>
                                                         <li class="display-flex">
@@ -203,11 +203,11 @@
                                                                 <a href="#"><i class="fa fa-times"></i></a>
                                                             </div>
                                                             <div class="product-info">
-                                                                <a href="cart.html">Data Science</a><br>
+                                                                <a href="cart.php">Data Science</a><br>
                                                                 <span class="quantity">1 × &#8377 5999.00/-</span>
                                                             </div>
                                                             <div class="product-image">
-                                                                <a href="cart.html"><img src="assets/images/courses/datascience/mlp.png" alt="Product Image"></a>
+                                                                <a href="cart.php"><img src="assets/images/courses/datascience/mlp.png" alt="Product Image"></a>
                                                             </div>
                                                         </li>
                                                     </ul>
@@ -218,8 +218,8 @@
                                                     </div>
 
                                                     <div class="cart-btn text-center">
-                                                        <a class="crt-btn btn1" href="cart.html">View Cart</a>
-                                                        <a class="crt-btn btn2" href="checkout.html">Check Out</a>
+                                                        <a class="crt-btn btn1" href="cart.php">View Cart</a>
+                                                        <a class="crt-btn btn2" href="checkout.php">Check Out</a>
                                                     </div>
                                                 </div>
                                             </div> 
@@ -253,7 +253,7 @@
                         </div>
                     </div>
                     <div class="canvas-logo">
-                        <a href="index.html"><img src="assets/images/logo.jpeg" alt="logo"></a>
+                        <a href="index.php"><img src="assets/images/logo.jpeg" alt="logo"></a>
                     </div>
                     <div class="offcanvas-text">
                         <p>We are Partnered with</p>
@@ -312,7 +312,7 @@
                     <h1 class="page-title">Cart</h1>
                     <ul>
                         <li>
-                            <a class="active" href="index.html">Home</a>
+                            <a class="active" href="index.php">Home</a>
                         </li>
                         <li>Cart</li>
                     </ul>
@@ -386,7 +386,7 @@
                                     </tbody>
                                 </table>
                                 <div class="wc-proceed-to-checkout">
-                                    <button class="btn-shop orange-color"><a href="checkout.html"> Proceed to checkout</a></button>
+                                    <button class="btn-shop orange-color"><a href="checkout.php"> Proceed to checkout</a></button>
                                 </div>
                             </div>
                         </div>
@@ -479,10 +479,10 @@
                     <h3 class="widget-title">Courses</h3>
                     <ul class="site-map">
                         <li><a href="index.php">Home</a></li>
-                        <li><a href="course-categories.html">Course</a></li>
-                        <li><a href="about.html">About Us</a></li>
-                        <li><a href="blog-single.html">Blog</a></li>
-                        <li><a href="contact.html">Contact Us</a></li>
+                        <li><a href="course-categories.php">Course</a></li>
+                        <li><a href="about.php">About Us</a></li>
+                        <li><a href="blog-single.php">Blog</a></li>
+                        <li><a href="contact.php">Contact Us</a></li>
                         
                     </ul>
                 </div>
@@ -494,7 +494,7 @@
                         </div>
                         <div class="post-item">
                             <div class="post-desc">
-                                <a href="blog-single.html">University while the lovely valley team work</a>
+                                <a href="blog-single.php">University while the lovely valley team work</a>
                             </div>
                             <span class="post-date">
                                 <i class="fa fa-calendar"></i>
@@ -508,7 +508,7 @@
                         </div>
                         <div class="post-item">
                             <div class="post-desc">
-                                <a href="blog-single.html">High school program starting soon 2021</a>
+                                <a href="blog-single.php">High school program starting soon 2021</a>
                             </div>
                             <span class="post-date">
                                <i class="fa fa-calendar-check-o"></i>
