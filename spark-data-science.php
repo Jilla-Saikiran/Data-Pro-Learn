@@ -51,7 +51,7 @@
                                 <ul class="topbar-contact">
                                     <li>
                                         <i class="flaticon-email"></i>
-                                        <a href="mailto:learn@dataprolearn.com">learn@dataprolearn.com</a>
+                                        <a href="mailto: info@dataprolean">learn@dataprolearn.com</a>
                                     </li>
                                     <li>
                                         <i class="flaticon-location"></i>
@@ -163,7 +163,7 @@
                                                <a href="about.php">About Us</a></li>
                                                <li>
                                                 <a href="blog-single.php">Blog</a></li>
-                                                <li><a href="Forum.php">Forum</a></li>
+                                                <li><a href="javascript:void(0);">Forum</a></li>
                                             <li class="menu-item-has-children">
                                                 <a href="contact.php">Contact</a></li>
                                         </ul> <!-- //.nav-menu -->
@@ -343,8 +343,19 @@
                                             <div class="course-overview">
                                                 <div class="inner-box">
                                                     <h4>Course Details</h4>
-                                                    <p>Phasellus enim magna, varius et commodo ut, ultricies vitae velit. Ut nulla tellus, eleifend euismod pellentesque vel, sagittis vel justo. In libero urna, venenatis sit amet ornare non, suscipit nec risus. Sed consequat justo non mauris pretium at tempor justo sodales. Quisque tincidunt laoreet malesuada. Cum sociis natoque penatibus.</p>
-                                                    <p>Eleifend euismod pellentesque vel Phasellus enim magna, varius et commodo ut, ultricies vitae velit. Ut nulla tellus, sagittis vel justo. In libero urna, venenatis sit amet ornare non, suscipit nec risus. Sed consequat justo non mauris pretium at tempor justo sodales. Quisque tincidunt laoreet malesuada. Cum sociis natoque penatibus.</p>
+                                                    <p>Taught by a 4 person team including 2 Stanford-educated, ex-Googlers  and 2 ex-Flipkart Lead Analysts. This team has decades of practical experience in working with Java and with billions of rows of data. </p>
+
+                                                    <p>your data to fly using Spark for analytics, machine learning and data science </p>
+
+                                                      <h5>  Let’s parse that.</h5>
+
+                                                      <p>  What's Spark? If you are an analyst or a data scientist, you're used to having multiple systems for working with data. SQL, Python, R, Java, etc. With Spark, you have a single engine where you can explore and play with large amounts of data, run machine learning algorithms and then use the same system to productionize your code.</p>
+
+                                                      <p>  Analytics: Using Spark and Python you can analyze and explore your data in an interactive environment with fast feedback. The course will show how to leverage the power of RDDs and Dataframes to manipulate data with ease. </p>
+
+                                                       <p> Machine Learning and Data Science : Spark's core functionality and built-in libraries make it easy to implement complex algorithms like Recommendations with very few lines of code. We'll cover a variety of datasets and algorithms including PageRank, MapReduce and Graph datasets. </p>
+
+
                                                     <ul class="student-list">
                                                         <li>23,564 Total Students</li>
                                                         <li><span class="theme_color">4.5</span> <span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span> (1254 Rating)</li>
@@ -352,14 +363,10 @@
                                                     </ul>
                                                     <h3>What you’ll learn?</h3>
                                                     <ul class="review-list">
-                                                        <li>Phasellus enim magna, varius et commodo ut.</li>
-                                                        <li>Sed consequat justo non mauris pretium at tempor justo.</li>
-                                                        <li>Ut nulla tellus, eleifend euismod pellentesque vel, sagittis vel justo</li>
-                                                        <li>Phasellus enim magna, varius et commodo ut.</li>
-                                                        <li>Phasellus enim magna, varius et commodo ut.</li>
-                                                        <li>Sed consequat justo non mauris pretium at tempor justo.</li>
-                                                        <li>Ut nulla tellus, eleifend euismod pellentesque vel, sagittis vel justo</li>
-                                                        <li>Phasellus enim magna, varius et commodo ut.</li>
+                                                        <li>Use Spark for a variety of analytics and Machine Learning tasks</li>
+                                                        <li>Implement complex algorithms like PageRank or Music Recommendations</li>
+                                                        <li>Work with a variety of datasets from Airline delays to Twitter, Web graphs, Social networks and Product Ratings</li>
+                                                        <li>Use all the different features and libraries of Spark : RDDs, Dataframes, Spark SQL, MLlib, Spark Streaming and GraphX</li>
                                                     </ul>
                                                     <h3>Requirements</h3>
                                                     <ul class="review-list">
@@ -819,113 +826,9 @@
 
         
 <!-- Footer Start -->
-<footer id="rs-footer" class="rs-footer home9-style main-home">
-    <div class="footer-top">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-3 col-md-12 col-sm-12 footer-widget md-mb-50">
-                    <div class="footer-logo mb-30">
-                        <a href="index.php"><img src="assets/images/footer-logo.png" alt="Data Pro Learn"></a>
-                    </div>
-                      <div class="textwidget pr-60 md-pr-15"><p class="white-color">Our Speciality is providing ONE TO ONE Custom Trainings based on Learners Background & Career Golas.</p>
-                      </div>
-                      <ul class="footer_social">  
-                          
-                          <li> 
-                              <a href="https://twitter.com/dataprolearn " target="_blank"><span><i class="fa fa-twitter"></i></span></a> 
-                          </li>
-
-                          <li> 
-                              <a href="https://t.me/dataprolearn " target="_blank"><span><i class="fa fa-telegram"></i></span></a> 
-                          </li>
-                          <li> 
-                              <a href="https://www.youtube.com/channel/UCnwQLvEKYbSxHAwdbbbMwIg " target="_blank"><span><i class="fa fa-youtube"></i></span></a> 
-                          </li>
-                          <li> 
-                              <a href="https://www.instagram.com/dataprolearn/ " target="_blank"><span><i class="fa fa-instagram"></i></span></a> 
-                          </li>
-                                                                   
-                      </ul>
-                </div>
-                <div class="col-lg-3 col-md-12 col-sm-12 footer-widget md-mb-50">
-                    <h3 class="widget-title">Address</h3>
-                    <ul class="address-widget">
-                        <li>
-                            <i class="flaticon-location"></i>
-                            <div class="desc"> Data PRO Learn</div>
-                        </li>
-                        <li>
-                            <i class="flaticon-call"></i>
-                            <div class="desc">
-                               <a href="tel:+91-7093094469">+91-7093094469</a>
-                            </div>
-                        </li>
-                        <li>
-                            <i class="flaticon-email"></i>
-                            <div class="desc">
-                                <a href="mailto:learn@dataprolearn.com">learn@dataprolearn.com</a>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-lg-3 col-md-12 col-sm-12 pl-50 md-pl-15 footer-widget md-mb-50">
-                    <h3 class="widget-title">Courses</h3>
-                    <ul class="site-map">
-                        <li><a href="index.php">Home</a></li>
-                        <li><a href="course-categories.php">Course</a></li>
-                        <li><a href="about.php">About Us</a></li>
-                        <li><a href="blog-single.php">Blog</a></li>
-                        <li><a href="contact.php">Contact Us</a></li>
-                        
-                    </ul>
-                </div>
-                <div class="col-lg-3 col-md-12 col-sm-12 footer-widget">
-                    <h3 class="widget-title">Recent Posts</h3>
-                    <div class="recent-post mb-20">
-                        <div class="post-img">
-                            <img src="assets/images/footer/1.jpg" alt="">
-                        </div>
-                        <div class="post-item">
-                            <div class="post-desc">
-                                <a href="#">University while the lovely valley team work</a>
-                            </div>
-                            <span class="post-date">
-                                <i class="fa fa-calendar"></i>
-                                September 20, 2020
-                            </span>
-                        </div>
-                    </div> 
-                    <div class="recent-post mb-20 md-pb-0">
-                        <div class="post-img">
-                            <img src="assets/images/footer/2.jpg" alt="">
-                        </div>
-                        <div class="post-item">
-                            <div class="post-desc">
-                                <a href="#">High school program starting soon 2021</a>
-                            </div>
-                            <span class="post-date">
-                               <i class="fa fa-calendar-check-o"></i>
-                                September 14, 2020
-                            </span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="footer-bottom">
-        <div class="container">                    
-            <div class="row y-middle">
-                <div class="col-lg-6 md-mb-20">
-                    <div class="copyright">
-                        <p>&copy; 2020 All Rights Reserved. Developed By <a href="http://appsron.com/">Appsron Technologies</a></p>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </div>
-</footer>
+<?PHP
+       include ('partials/footer.php')
+     ?>
 <!-- Footer End -->
 
         <!-- start scrollUp  -->

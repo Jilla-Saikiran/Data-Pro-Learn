@@ -51,7 +51,7 @@
                                 <ul class="topbar-contact">
                                     <li>
                                         <i class="flaticon-email"></i>
-                                        <a href="mailto:learn@dataprolearn.com">learn@dataprolearn.com</a>
+                                        <a href="mailto: info@dataprolean"> info@dataprolean</a>
                                     </li>
                                     <li>
                                         <i class="flaticon-location"></i>
@@ -163,7 +163,7 @@
                                                <a href="about.php">About Us</a></li>
                                                <li class="current-menu-item">
                                                 <a href="blog-single.php">Blog</a></li>
-                                                <li><a href="Forum.php">Forum</a></li>
+                                                <li><a href="javascript:void(0);">Forum</a></li>
                                             <li class="menu-item-has-children">
                                                 <a href="contact.php">Contact</a></li>
                                          </ul> <!-- //.nav-menu -->
@@ -318,20 +318,15 @@
                   <div class="row">
                     <div class="col-lg-4 col-md-12 order-last">
                         <div class="widget-area">
-                            <div class="search-widget mb-50">
-                                <div class="search-wrap">
-                                    <input type="search" placeholder="Searching..." name="s" class="search-input" value="">
-                                    <button type="submit" value="Search"><i class=" flaticon-search"></i></button>
-                                </div>
-                            </div>
+                          
                             <div class="recent-posts-widget mb-50">
                                 <h3 class="widget-title">Recent Posts</h3>
                                 <div class="show-featured ">
                                     <div class="post-img">
-                                        <a href="#"><img src="assets/images/blog/style2/1.jpg" alt=""></a>
+                                        <a href="#"><img src="assets/images/courses/cloud/data-bricks.jpeg" alt=""></a>
                                     </div>
                                     <div class="post-desc">
-                                        <a href="#">Covid-19 threatens the next generation of smartphones</a>
+                                        <a href="#">Data Bricks</a>
                                         <span class="date">
                                             <i class="fa fa-calendar"></i>
                                              April 6, 2020
@@ -340,10 +335,10 @@
                                 </div> 
                                 <div class="show-featured ">
                                     <div class="post-img">
-                                        <a href="#"><img src="assets/images/blog/style2/2.jpg" alt=""></a>
+                                        <a href="#"><img src="assets/images/courses/datascience/tsr.jpeg" alt=""></a>
                                     </div>
                                     <div class="post-desc">
-                                        <a href="#">Soundtrack filma Lady Exclusive Music</a>
+                                        <a href="#">Tensor Flow</a>
                                         <span class="date">
                                             <i class="fa fa-calendar"></i>
                                             November 19, 2018
@@ -352,10 +347,10 @@
                                 </div> 
                                 <div class="show-featured ">
                                     <div class="post-img">
-                                        <a href="#"><img src="assets/images/blog/style2/3.jpg" alt=""></a>
+                                        <a href="#"><img src="assets/images/courses/programming/py.jpeg" alt=""></a>
                                     </div>
                                     <div class="post-desc">
-                                        <a href="#">Soundtrack filma Lady Exclusive Music </a>
+                                        <a href="#">Python </a>
                                         <span class="date">
                                             <i class="fa fa-calendar"></i>
                                             September 6, 2020
@@ -364,10 +359,10 @@
                                 </div> 
                                 <div class="show-featured ">
                                     <div class="post-img">
-                                        <a href="#"><img src="assets/images/blog/style2/4.jpg" alt=""></a>
+                                        <a href="#"><img src="assets/images/courses/bigdata/cassandra.jpeg" alt=""></a>
                                     </div>
                                     <div class="post-desc">
-                                        <a href="#">Given void great you’re good appear have i also fifth </a>
+                                        <a href="#">Cassendra</a>
                                         <span class="date">
                                             <i class="fa fa-calendar"></i>
                                             September 6, 2020
@@ -376,10 +371,10 @@
                                 </div> 
                                 <div class="show-featured ">
                                     <div class="post-img">
-                                        <a href="#"><img src="assets/images/blog/style2/5.jpg" alt=""></a>
+                                        <a href="#"><img src="assets/images/courses/dev-ops/dev-ops.jpeg" alt=""></a>
                                     </div>
                                     <div class="post-desc">
-                                        <a href="#">Lights winged seasons fish abundantly evening.</a>
+                                        <a href="#">Devops</a>
                                         <span class="date">
                                             <i class="fa fa-calendar"></i>
                                              September 6, 2020
@@ -387,23 +382,8 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="widget-archives mb-50">
-                                <h3 class="widget-title">Archives</h3>
-                                <ul>
-                                    <li><a href="#">September 2020</a></li>
-                                    <li><a href="#">September 2020</a></li>
-                                </ul>
-                            </div>   
-                            <div class="widget-archives mb-50">
-                                <h3 class="widget-title">Categories</h3>
-                                <ul>
-                                    <li><a href="#">College</a></li>
-                                    <li><a href="#">High School</a></li>
-                                    <li><a href="#">Primary</a></li>
-                                    <li><a href="#">School</a></li>
-                                    <li><a href="#">University</a></li>
-                                </ul>
-                            </div>
+                            
+                            
                              
                         </div>
                     </div>
@@ -412,10 +392,10 @@
                               <div class="col-lg-12 mb-70">
                                   <div class="blog-item">
                                       <div class="blog-img">
-                                          <a href="#"><img src="assets/images/blog/inner/1.jpg" alt=""></a>
+                                          <a href="#"><img src="assets/images/courses/cloud/data-bricks.jpeg" alt=""></a>
                                       </div>
                                       <div class="blog-content">
-                                          <h3 class="blog-title"><a href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, amet!</a></h3>
+                                          <h3 class="blog-title"><a href="#">AN ARCHITECTS GUIDE TO DELIVERING DATA INSIGHTS USING THE MICROSOFT AZURE DATA PLATFORM</a></h3>
                                           <div class="blog-meta">
                                               <ul class="btm-cate">
                                                   <li>
@@ -431,13 +411,22 @@
                                                   <li>
                                                       <div class="tag-line">
                                                           <i class="fa fa-book"></i>
-                                                          <a href="#">University</a> 
+                                                          <a href="#"></a> 
                                                       </div>
                                                   </li>
                                               </ul>
                                           </div>
                                           <div class="blog-desc">   
-                                              Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam...                                     
+                                            AZURE DATA ANALYTICS END TO END
+                                            Let’s start with a story, not a ‘once upon a time story‘, a story for your backlog 🙂
+
+                                            As a solution architect
+                                            I need to design and build an Azure data analytics platform end to end
+                                            to deliver data insights for my customer.
+
+                                            In February 2021 I delivered a talk as part of the Scottish Summit conference on how you could/should build an end to end data platform solution in Azure to deliver data insights and analytics. This is one of my favourite sessions so thought it worth re-sharing the recording here.
+
+                                    
                                           </div>
                                           <div class="blog-button">
                                               <a class="blog-btn" href="#">Continue Reading</a>
@@ -448,10 +437,10 @@
                               <div class="col-lg-12 mb-70">
                                   <div class="blog-item">
                                       <div class="blog-img">
-                                          <a href="#"><img src="assets/images/blog/inner/2.jpg" alt=""></a>
+                                          <a href="#"><img src="assets/images/courses/datascience/tsr.jpeg" alt=""></a>
                                       </div>
                                       <div class="blog-content">
-                                          <h3 class="blog-title"><a href="#">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis, alias?</a></h3>
+                                          <h3 class="blog-title"><a href="#">Tensor Flow</a></h3>
                                           <div class="blog-meta">
                                               <ul class="btm-cate">
                                                   <li>
@@ -484,10 +473,10 @@
                               <div class="col-lg-12 mb-70">
                                   <div class="blog-item">
                                       <div class="blog-img">
-                                          <a href="#"><img src="assets/images/blog/inner/3.jpg" alt=""></a>
+                                          <a href="#"><img src="assets/images/courses/programming/py.jpeg" alt=""></a>
                                       </div>
                                       <div class="blog-content">
-                                          <h3 class="blog-title"><a href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, corporis.</a></h3>
+                                          <h3 class="blog-title"><a href="#">Python</a></h3>
                                           <div class="blog-meta">
                                               <ul class="btm-cate">
                                                   <li>
@@ -555,114 +544,9 @@
         <!-- Main content End --> 
 
         <!-- Footer Start -->
-        <footer id="rs-footer" class="rs-footer home9-style main-home">
-            <div class="footer-top">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-3 col-md-12 col-sm-12 footer-widget md-mb-50">
-                            <div class="footer-logo mb-30">
-                                <a href="index.php"><img src="assets/images/footer-logo.png" alt="Data Pro Learn"></a>
-                            </div>
-                              <div class="textwidget pr-60 md-pr-15"><p class="white-color">Our Speciality is providing ONE TO ONE Custom Trainings based on Learners Background & Career Golas.
-                            </p>
-                              </div>
-                              <ul class="footer_social">  
-                                  
-                                  <li> 
-                                      <a href="https://twitter.com/dataprolearn " target="_blank"><span><i class="fa fa-twitter"></i></span></a> 
-                                  </li>
-
-                                  <li> 
-                                      <a href="https://t.me/dataprolearn " target="_blank"><span><i class="fa fa-telegram"></i></span></a> 
-                                  </li>
-                                  <li> 
-                                      <a href="https://www.youtube.com/channel/UCnwQLvEKYbSxHAwdbbbMwIg " target="_blank"><span><i class="fa fa-youtube"></i></span></a> 
-                                  </li>
-                                  <li> 
-                                      <a href="https://www.instagram.com/dataprolearn/ " target="_blank"><span><i class="fa fa-instagram"></i></span></a> 
-                                  </li>
-                                                                           
-                              </ul>
-                        </div>
-                        <div class="col-lg-3 col-md-12 col-sm-12 footer-widget md-mb-50">
-                            <h3 class="widget-title">Address</h3>
-                            <ul class="address-widget">
-                                <li>
-                                    <i class="flaticon-location"></i>
-                                    <div class="desc"> Data PRO Learn</div>
-                                </li>
-                                <li>
-                                    <i class="flaticon-call"></i>
-                                    <div class="desc">
-                                       <a href="tel:+91-7093094469">+91-7093094469</a>
-                                    </div>
-                                </li>
-                                <li>
-                                    <i class="flaticon-email"></i>
-                                    <div class="desc">
-                                        <a href="mailto:learn@dataprolearn.com">learn@dataprolearn.com</a>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="col-lg-3 col-md-12 col-sm-12 pl-50 md-pl-15 footer-widget md-mb-50">
-                            <h3 class="widget-title">Courses</h3>
-                            <ul class="site-map">
-                                <li><a href="index.php">Home</a></li>
-                                <li><a href="course-categories.php">Course</a></li>
-                                <li><a href="about.php">About Us</a></li>
-                                <li><a href="blog-single.php">Blog</a></li>
-                                <li><a href="contact.php">Contact Us</a></li>
-                                
-                            </ul>
-                        </div>
-                        <div class="col-lg-3 col-md-12 col-sm-12 footer-widget">
-                            <h3 class="widget-title">Recent Posts</h3>
-                            <div class="recent-post mb-20">
-                                <div class="post-img">
-                                    <img src="assets/images/footer/1.jpg" alt="">
-                                </div>
-                                <div class="post-item">
-                                    <div class="post-desc">
-                                        <a href="blog-single.php">University while the lovely valley team work</a>
-                                    </div>
-                                    <span class="post-date">
-                                        <i class="fa fa-calendar"></i>
-                                        June 20, 2021
-                                    </span>
-                                </div>
-                            </div> 
-                            <div class="recent-post mb-20 md-pb-0">
-                                <div class="post-img">
-                                    <img src="assets/images/footer/2.jpg" alt="">
-                                </div>
-                                <div class="post-item">
-                                    <div class="post-desc">
-                                        <a href="blog-single.php">High school program starting soon 2021</a>
-                                    </div>
-                                    <span class="post-date">
-                                       <i class="fa fa-calendar-check-o"></i>
-                                        June 14, 2021
-                                    </span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="footer-bottom">
-                <div class="container">                    
-                    <div class="row y-middle">
-                        <div class="col-lg-6 md-mb-20">
-                            <div class="copyright">
-                                <p>&copy; 2021 All Rights Reserved. Developed By <a href="http://appsron.com/">Appsron Technologies</a></p>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-        </footer>
+        <?PHP
+       include ('partials/footer.php')
+     ?>
         <!-- Footer End -->
 
 

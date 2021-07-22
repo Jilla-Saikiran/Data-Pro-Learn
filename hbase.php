@@ -51,7 +51,7 @@
                                 <ul class="topbar-contact">
                                     <li>
                                         <i class="flaticon-email"></i>
-                                        <a href="mailto:learn@dataprolearn.com">learn@dataprolearn.com</a>
+                                        <a href="mailto: info@dataprolean">learn@dataprolearn.com</a>
                                     </li>
                                     <li>
                                         <i class="flaticon-location"></i>
@@ -163,7 +163,7 @@
                                                <a href="about.php">About Us</a></li>
                                                <li>
                                                 <a href="blog-single.php">Blog</a></li>
-                                                <li><a href="Forum.php">Forum</a></li>
+                                                <li><a href="javascript:void(0);">Forum</a></li>
                                             <li class="menu-item-has-children">
                                                 <a href="contact.php">Contact</a></li>
                                         </ul> <!-- //.nav-menu -->
@@ -351,23 +351,80 @@
                                                         <li>256 Reviews</li>
                                                     </ul>
                                                     <h3>What you’ll learn?</h3>
+                                                    <h3>Introduction to HBASE</h3>
                                                     <ul class="review-list">
-                                                        <li>Phasellus enim magna, varius et commodo ut.</li>
-                                                        <li>Sed consequat justo non mauris pretium at tempor justo.</li>
-                                                        <li>Ut nulla tellus, eleifend euismod pellentesque vel, sagittis vel justo</li>
-                                                        <li>Phasellus enim magna, varius et commodo ut.</li>
-                                                        <li>Phasellus enim magna, varius et commodo ut.</li>
-                                                        <li>Sed consequat justo non mauris pretium at tempor justo.</li>
-                                                        <li>Ut nulla tellus, eleifend euismod pellentesque vel, sagittis vel justo</li>
-                                                        <li>Phasellus enim magna, varius et commodo ut.</li>
+                                                        <li>Installing HBase</li>
+                                                        <li>The role of HBase in the Hadoop ecosystem</li>
+                                                        <li>How is HBase different from RDBMS?</li>
+                                                        <li>HBase Data Model</li>
+                                                        <li>Introducing CRUD operations</li>
+                                                        <li>HBase is different from Hive</li>
+                                                            
+                                                    </ul>
+                                                    <h3>CUD Operations using the HBase Shell</h3>
+                                                    <ul class="review-list">
+                                                        <li>[For Linux/Mac OS Shell Newbies] Path and other Environment Variables</li>
+                                                        <li>Example 2 - Inserting a row</li>
+                                                        <li>Example 3 - Updating a row</li>
+                                                        <li>Example 4 - Retrieving a row</li>
+                                                        <li>Example 5 - Retrieving a range of rows</li>
+                                                        <li>Example 6 - Deleting a row</li>
+                                                        <li>Example 7 - Deleting a table</li>
+                                                            
+                                                    </ul>
+                                                    <h3>CUD Operations using the Java API</h3>
+                                                    <ul class="review-list">
+                                                        <li>Example 8 - Creating a table with HBaseAdmin</li>
+                                                        <li>Example 10 - Inserting a list of Puts</li>
+                                                        <li>Example 11 - Retrieving data - Get and Result objects</li>
+                                                        <li>Example 12 - A list of Gets</li>
+                                                        <li>Example 13 - Deleting a row</li>
+                                                        <li>Example 14 - A list of Deletes</li>
+                                                        <li>Example 16 - Scanning a range of rows</li>
+                                                        <li>Example 17 - Deleting a table</li>
+
+                                                            
+                                                    </ul>
+                                                    <h3>HBase Architecture</h3>
+                                                    <ul class="review-list">
+                                                        <li>HBase Architecture</li>
+                                                        
+                                                            
+                                                    </ul>
+                                                    <h3>Advanced Operations-Filters and Counters</h3>
+                                                    <ul class="review-list">
+                                                        <li>Example 18 - Filter by Row id - RowFilter</li>
+                                                        <li>Example 19 - Filter by column value - SingleColumnValueFilter</li>
+                                                        <li>Example 20 - Apply multiple conditions - Filterlist</li>
+                                                        <li>Example 21 - Retrieve rows within a time range</li>
+                                                        <li>Example 22 - Atomically incrementing a value with Counters</li>
+                                                        
+                                                            
+                                                    </ul>
+                                                    <h3>MapReduce with Hbase</h3>
+                                                    <ul class="review-list">
+                                                        <li>Example 23 : A MapReduce task to count Notifications by Type</li>
+                                                        <li>Example 23 continued: Implementing the MapReduce in Java</li>
+                                                        <li>Demo : Running a MapReduce task</li>
+                                                        
+                                                            
+                                                    </ul>
+                                                    <h3>Build a Notification Service</h3>
+                                                    <ul class="review-list">
+                                                        <li>Example 24 : Implement a Notification Hierarchy</li>
+                                                        <li>Example 25: Implement a Notifications Manager </li>
+                                                    </ul>
+                                                    <h3>Installing Hadoop in a local Environment</h3>
+                                                    <ul class="review-list">
+                                                        <li>Hadoop Install Modes</li>
+                                                        <li>Hadoop Install Step 1 : Standalone Mode</li>
+                                                        <li>Hadoop Install Step 2 : Pseudo-Distributed Mode</li>
+                                                        <li>Setting up a Virtual Linux Instance - For Windows Users</li>
                                                     </ul>
                                                     <h3>Requirements</h3>
                                                     <ul class="review-list">
-                                                        <li>Phasellus enim magna, varius et commodo ut, ultricies vitae velit. Ut nulla tellus, eleifend euismod pellentesque vel, sagittis vel justo</li>
-                                                        <li>Ultricies vitae velit. Ut nulla tellus, eleifend euismod pellentesque vel.</li>
-                                                        <li>Phasellus enim magna, varius et commodo ut.</li>
-                                                        <li>Varius et commodo ut, ultricies vitae velit. Ut nulla tellus.</li>
-                                                        <li>Phasellus enim magna, varius et commodo ut.</li>
+                                                        <li>You'll need to have an IDE where you can run Java code, Intellij IDEA and Eclipse are both good options</li>
+                                                        <li>You'll need to have some experience with Java programming</li>
                                                     </ul>                                                                                                          
                                                 </div>
                                             </div>                                                
@@ -819,113 +876,9 @@
 
         
 <!-- Footer Start -->
-<footer id="rs-footer" class="rs-footer home9-style main-home">
-    <div class="footer-top">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-3 col-md-12 col-sm-12 footer-widget md-mb-50">
-                    <div class="footer-logo mb-30">
-                        <a href="index.php"><img src="assets/images/footer-logo.png" alt="Data Pro Learn"></a>
-                    </div>
-                      <div class="textwidget pr-60 md-pr-15"><p class="white-color">Our Speciality is providing ONE TO ONE Custom Trainings based on Learners Background & Career Golas.</p>
-                      </div>
-                      <ul class="footer_social">  
-                          
-                          <li> 
-                              <a href="https://twitter.com/dataprolearn " target="_blank"><span><i class="fa fa-twitter"></i></span></a> 
-                          </li>
-
-                          <li> 
-                              <a href="https://t.me/dataprolearn " target="_blank"><span><i class="fa fa-telegram"></i></span></a> 
-                          </li>
-                          <li> 
-                              <a href="https://www.youtube.com/channel/UCnwQLvEKYbSxHAwdbbbMwIg " target="_blank"><span><i class="fa fa-youtube"></i></span></a> 
-                          </li>
-                          <li> 
-                              <a href="https://www.instagram.com/dataprolearn/ " target="_blank"><span><i class="fa fa-instagram"></i></span></a> 
-                          </li>
-                                                                   
-                      </ul>
-                </div>
-                <div class="col-lg-3 col-md-12 col-sm-12 footer-widget md-mb-50">
-                    <h3 class="widget-title">Address</h3>
-                    <ul class="address-widget">
-                        <li>
-                            <i class="flaticon-location"></i>
-                            <div class="desc"> Data PRO Learn</div>
-                        </li>
-                        <li>
-                            <i class="flaticon-call"></i>
-                            <div class="desc">
-                               <a href="tel:+91-7093094469">+91-7093094469</a>
-                            </div>
-                        </li>
-                        <li>
-                            <i class="flaticon-email"></i>
-                            <div class="desc">
-                                <a href="mailto:learn@dataprolearn.com">learn@dataprolearn.com</a>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-lg-3 col-md-12 col-sm-12 pl-50 md-pl-15 footer-widget md-mb-50">
-                    <h3 class="widget-title">Courses</h3>
-                    <ul class="site-map">
-                        <li><a href="index.php">Home</a></li>
-                        <li><a href="course-categories.php">Course</a></li>
-                        <li><a href="about.php">About Us</a></li>
-                        <li><a href="blog-single.php">Blog</a></li>
-                        <li><a href="contact.php">Contact Us</a></li>
-                        
-                    </ul>
-                </div>
-                <div class="col-lg-3 col-md-12 col-sm-12 footer-widget">
-                    <h3 class="widget-title">Recent Posts</h3>
-                    <div class="recent-post mb-20">
-                        <div class="post-img">
-                            <img src="assets/images/footer/1.jpg" alt="">
-                        </div>
-                        <div class="post-item">
-                            <div class="post-desc">
-                                <a href="#">University while the lovely valley team work</a>
-                            </div>
-                            <span class="post-date">
-                                <i class="fa fa-calendar"></i>
-                                September 20, 2020
-                            </span>
-                        </div>
-                    </div> 
-                    <div class="recent-post mb-20 md-pb-0">
-                        <div class="post-img">
-                            <img src="assets/images/footer/2.jpg" alt="">
-                        </div>
-                        <div class="post-item">
-                            <div class="post-desc">
-                                <a href="#">High school program starting soon 2021</a>
-                            </div>
-                            <span class="post-date">
-                               <i class="fa fa-calendar-check-o"></i>
-                                September 14, 2020
-                            </span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="footer-bottom">
-        <div class="container">                    
-            <div class="row y-middle">
-                <div class="col-lg-6 md-mb-20">
-                    <div class="copyright">
-                        <p>&copy; 2020 All Rights Reserved. Developed By <a href="http://appsron.com/">Appsron Technologies</a></p>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </div>
-</footer>
+<?PHP
+       include ('partials/footer.php')
+     ?>
 <!-- Footer End -->
 
         <!-- start scrollUp  -->

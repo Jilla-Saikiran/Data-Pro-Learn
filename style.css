@@ -83,7 +83,7 @@ h4,
 h5,
 h6 {
   font-family: 'Nunito', sans-serif;
-  color: black;
+  color: #fff;
   margin: 0 0 26px;
   line-height: 1.2;
 }
@@ -14551,7 +14551,7 @@ a:hover, a:focus, a:active {
   font-size: 22px;
   font-weight: 600;
   padding: 12px 35px;
-  border-radius: 0;
+  border-radius: 10px;
   text-transform: uppercase;
   letter-spacing: -0.5px;
 }
@@ -14620,7 +14620,7 @@ display: block;
 }
 .modal-content {
 background-color: rgba(38, 38, 40, 0.92);
-color: rgb(5, 5, 5);
+color: #fff;
 padding: 20px 100px;
 }
 .modal-content input {

@@ -50,7 +50,7 @@
                                 <ul class="topbar-contact">
                                     <li>
                                         <i class="flaticon-email"></i>
-                                        <a href="mailto:learn@dataprolearn.com">learn@dataprolearn.com</a>
+                                        <a href="mailto: info@dataprolean"> info@dataprolean</a>
                                     </li>
                                     <li>
                                         <i class="flaticon-location"></i>
@@ -162,7 +162,7 @@
                                                <a href="about.php">About Us</a></li>
                                                <li>
                                                 <a href="blog-single.php">Blog</a></li>
-                                                <li><a href="Forum.php">Forum</a></li>
+                                                <li><a href="javascript:void(0);">Forum</a></li>
                                             <li class="menu-item-has-children">
                                                 <a href="contact.php">Contact</a></li>
                                         </ul> <!-- //.nav-menu -->
@@ -411,7 +411,7 @@
                                 <li>
                                     <i class="flaticon-email"></i>
                                     <div class="desc">
-                                        <a href="mailto:learn@dataprolearn.com">learn@dataprolearn.com</a>
+                                        <a href="mailto: info@dataprolean"> info@dataprolean</a>
                                     </div>
                                 </li>
                             </ul>

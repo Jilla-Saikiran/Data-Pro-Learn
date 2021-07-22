@@ -9,7 +9,7 @@ $phone = $_POST['phone'];
 $comments = $_POST['comment'];
 
 
-$sql = "INSERT INTO Enquiry (First_Name,	Last_Name, Email, Phone,Comments)
+$sql = "INSERT INTO enquiry (first_name,last_name, email, phone,comments)
 VALUES ('".$firstname."','".$lastname."'  ,'".$email."','".$phone."','".$comments."')";
 
 if (mysqli_query($conn, $sql)) {

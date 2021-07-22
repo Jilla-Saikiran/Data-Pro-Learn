@@ -51,7 +51,7 @@
                                 <ul class="topbar-contact">
                                     <li>
                                         <i class="flaticon-email"></i>
-                                        <a href="mailto:learn@dataprolearn.com">learn@dataprolearn.com</a>
+                                        <a href="mailto: info@dataprolean">learn@dataprolearn.com</a>
                                     </li>
                                     <li>
                                         <i class="flaticon-location"></i>
@@ -163,7 +163,7 @@
                                                <a href="about.php">About Us</a></li>
                                                <li>
                                                 <a href="blog-single.php">Blog</a></li>
-                                                <li><a href="Forum.php">Forum</a></li>
+                                                <li><a href="javascript:void(0);">Forum</a></li>
                                             <li class="menu-item-has-children">
                                                 <a href="contact.php">Contact</a></li>
                                         </ul> <!-- //.nav-menu -->
@@ -343,8 +343,9 @@
                                             <div class="course-overview">
                                                 <div class="inner-box">
                                                     <h4>Course Details</h4>
-                                                    <p>Phasellus enim magna, varius et commodo ut, ultricies vitae velit. Ut nulla tellus, eleifend euismod pellentesque vel, sagittis vel justo. In libero urna, venenatis sit amet ornare non, suscipit nec risus. Sed consequat justo non mauris pretium at tempor justo sodales. Quisque tincidunt laoreet malesuada. Cum sociis natoque penatibus.</p>
-                                                    <p>Eleifend euismod pellentesque vel Phasellus enim magna, varius et commodo ut, ultricies vitae velit. Ut nulla tellus, sagittis vel justo. In libero urna, venenatis sit amet ornare non, suscipit nec risus. Sed consequat justo non mauris pretium at tempor justo sodales. Quisque tincidunt laoreet malesuada. Cum sociis natoque penatibus.</p>
+                                                   
+                                                    <p>This MongoDB® Training Certification course will help you master one of the most popular NoSQL databases. This course is designed to equip you with skills of a Mongo DB experienced professional. You will gain knowledge in mastering data modelling, ingestion, query and Sharding, and much more, to become job ready. The course covers a range of NoSQL and MongoDB® topics which will help you gain various development, administering, and engineering skills.</p>
+                                                    
                                                     <ul class="student-list">
                                                         <li>23,564 Total Students</li>
                                                         <li><span class="theme_color">4.5</span> <span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span> (1254 Rating)</li>
@@ -352,24 +353,121 @@
                                                     </ul>
                                                     <h3>What you’ll learn?</h3>
                                                     <ul class="review-list">
-                                                        <li>Phasellus enim magna, varius et commodo ut.</li>
-                                                        <li>Sed consequat justo non mauris pretium at tempor justo.</li>
-                                                        <li>Ut nulla tellus, eleifend euismod pellentesque vel, sagittis vel justo</li>
-                                                        <li>Phasellus enim magna, varius et commodo ut.</li>
-                                                        <li>Phasellus enim magna, varius et commodo ut.</li>
-                                                        <li>Sed consequat justo non mauris pretium at tempor justo.</li>
-                                                        <li>Ut nulla tellus, eleifend euismod pellentesque vel, sagittis vel justo</li>
-                                                        <li>Phasellus enim magna, varius et commodo ut.</li>
+                                                    <h5>Introduction to MongoDB - Architecture and Installation</h5>
+                                                        <li>• Understanding the basic concepts of a Database</li>
+                                                        <li>• Database categories: What is NoSQL? Why NoSQL? Benefit over RDBMS </li>
+                                                        <li>• Types of NoSQL Database, and NoSQL vs. SQL Comparison, ACID & Base Property</li>
+                                                        <li>• CAP Theorem, implementing NoSQL and what is MongoDB? </li>
+                                                        <li>• Overview of MongoDB, Design Goals for MongoDB Server and Database, MongoDB tools</li>
+                                                        <li>• Understanding the following: Collection, Documents and Key/ Values, etc.,</li>
+                                                        <li>• Introduction to JSON and BSON documents</li>
+                                                        <li>• Environment setup (live Hands-on) and using various MongoDB tools available in the MongoDB Package</li>
+                                                        <li>• Case study discussion</li>
+                                                        <li>• MongoDB Installation </li>
+
                                                     </ul>
-                                                    <h3>Requirements</h3>
+                                                    <h5>CRUD operations</h5>
                                                     <ul class="review-list">
-                                                        <li>Phasellus enim magna, varius et commodo ut, ultricies vitae velit. Ut nulla tellus, eleifend euismod pellentesque vel, sagittis vel justo</li>
-                                                        <li>Ultricies vitae velit. Ut nulla tellus, eleifend euismod pellentesque vel.</li>
-                                                        <li>Phasellus enim magna, varius et commodo ut.</li>
-                                                        <li>Varius et commodo ut, ultricies vitae velit. Ut nulla tellus.</li>
-                                                        <li>Phasellus enim magna, varius et commodo ut.</li>
+                                                    <li>• Data Modelling Concepts</li>
+                                                    <li>• Why Data Modelling? Data Modelling Approach</li>
+                                                    <li>• Analogy between RDBMS & MongoDB Data Model, MongoDB Data Model (Embedding & Linking)</li>
+                                                    <li>• Challenges for Data Modelling in MongoDB</li>
+                                                    <li>• Data Model Examples and Patterns</li>
+                                                    <li>• Model Relationships between Documents</li>
+                                                    <li>• Model Tree Structures </li>
+                                                    <li>• Model Specific Application Contexts</li>
+                                                    <li>• Use Case discussion of Data modeling</li>
+                                                    <li>• HR Data Modeling in RDBMS</li>
+                                            </ul>
+                                            <h5>Indexing and Aggregation Framework</h5>
+                                                    <ul class="review-list">
+                                                    <li>• Index Introduction, Index Concepts, Index Types, Index Properties </li>
+                                                    <li>• Index Creation and Indexing Reference</li>
+                                                    <li>• Introduction to Aggregation </li>
+                                                    <li>• Approach to Aggregation</li>
+                                                    <li>• Types of Aggregation (Pipeline, MapReduce & Single Purpose)</li>
+                                                    <li>• Performance Tuning.</li>
+                                            </ul>
+                                            <h5>MongoDB Administration</h5>
+                                                    <ul class="review-list">
+                                                    <li>• Administration concepts in MongoDB</li>
+                                                    <li>• Monitoring issues related to Database</li>
+                                                    <li>• Monitoring at Server, Database, Collection level, and various Monitoring tools related to MongoDB</li>
+                                                    <li>• Database Profiling, Locks, Memory Usage, No of connections, page fault etc.,</li>
+                                                    <li>• Backup and Recovery Methods for MongoDB</li>
+                                                    <li>• Export and Import of Data to and from MongoDB</li>
+                                                    <li>• Run time configuration of MongoDB</li>
+                                                    <li>• Production notes/ best practices</li>
+                                                    <li>• Data Managements in MongoDB (Capped Collections/ Expired data from TTL), Hands on Administrative Tasks.</li>
+
+
+                                            </ul>
+                                                        
+                                                    <h3>Scalability and Availability</h3>
+                                                    <ul class="review-list">
+                                                        <li>• Introduction to Replication (High Availability)</li>
+                                                        <li>• Concepts around Replication</li>
+                                                        <li>• What is Replica Set and Master Slave Replication? </li>
+                                                        <li>• Type of Replication in MongoDB</li>
+                                                        <li>• How to setup a replicated cluster & managing replica sets etc., </li>
+                                                        <li>• Introduction to Sharding (Horizontal Scaling), </li>
+                                                        <li>• Concepts around Sharding, what is shards, Key, </li>
+                                                        <li>• Config Server, Query Router etc. </li>
+                                                        <li>• How to setup a Sharding,</li>
+                                                        <li>• Type of Sharding (Hash Based, Range Based etc.), and Managing Shards.</li>
                                                     </ul>                                                                                                          
-                                                </div>
+                                                
+                                                <h3>MongoDB Security</h3>
+                                                    <ul class="review-list">
+                                                        <li>• Security Introduction</li>
+                                                        <li>• Security Concepts</li>
+                                                        <li>• Integration of MongoDB with Jaspersoft</li>
+                                                        <li>• Integration of MongoDB with Pentaho</li>
+                                                        <li>• Integration of MongoDB with Hadoop/Hive</li>
+                                                        <li>• Integration of MongoDB with Java</li>
+                                                        <li>• Integration of MongoDB with GUI Tool Robomongo </li>
+                                                        <li>• Case Study MongoDB and Java</li>
+                                                     </ul>
+                                                     <h3>Application Engineering and MongoDB Tools</h3>
+                                                    <ul class="review-list">
+                                                        <li>• MongoDB Package Components</li>
+                                                        <li>• Configuration File Options</li>
+                                                        <li>• MongoDB Limits and Thresholds</li>
+                                                        <li>• Connection String URI Format/ Integration of any compatible tool with MongoDB API and Drivers for MongoDB</li>
+                                                        <li>• MMS (MongoDB Monitoring Service)</li>
+                                                        <li>• HTTP and Rest Interface</li>
+                                                        <li>• Integration of MongoDB with Hadoop and Data Migration MongoDB with Hadoop (MongoDB to Hive)</li>
+                                                        <li>• Integration with R</li>
+                                                     </ul>
+                                                     <h3>MongoDB on the Cloud</h3>
+                                                    <ul class="review-list">
+                                                        <li>• Overview of MongoDB Cloud products</li>
+                                                        <li>• Using Cloud Manager to monitor MongoDB deployments</li>
+                                                        <li>• Introduction to MongoDB Stitch</li>
+                                                        <li>• MongoDB Cloud Atlas</li>
+                                                        <li>• MongoDB Cloud Manager</li>
+                                                        <li>• Working with MongoDB Ops Manager</li>
+                                                     </ul>
+                                                     <h3>Diagnostics and Fixes</h3>
+                                                    <ul class="review-list">
+                                                        <li>• Overview of tools</li>
+                                                        <li>• MongoDB Diagnostic Tools</li>
+                                                        <li>• Diagnostics Commands</li>
+                                                        <li>• MongoDB Deployment</li>
+                                                        <li>• Setup & Configuration, Scalability, Management & Security</li>
+                                                        <li>• Slow Queries</li>
+                                                        <li>• Connectivity</li>
+
+                                                     </ul>
+                                                     <h3>What are the system requirements for this course?</h3>
+                                                    <ul class="review-list">
+                                                        <li>A system with 4GB RAM and i3 or above processor</li>
+                                                        <li> Mongo DB v3.4 or above</li>
+                                                            </li>
+
+                                                     </ul>
+
+                                                </div>                                                                   
                                             </div>                                                
                                         </div>
                                     </div>
@@ -819,113 +917,9 @@
 
         
        <!-- Footer Start -->
-       <footer id="rs-footer" class="rs-footer home9-style main-home">
-        <div class="footer-top">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-3 col-md-12 col-sm-12 footer-widget md-mb-50">
-                        <div class="footer-logo mb-30">
-                            <a href="index.php"><img src="assets/images/footer-logo.png" alt="Data Pro Learn"></a>
-                        </div>
-                          <div class="textwidget pr-60 md-pr-15"><p class="white-color">Our Speciality is providing ONE TO ONE Custom Trainings based on Learners Background & Career Golas.</p>
-                          </div>
-                          <ul class="footer_social">  
-                              
-                              <li> 
-                                  <a href="https://twitter.com/dataprolearn " target="_blank"><span><i class="fa fa-twitter"></i></span></a> 
-                              </li>
-
-                              <li> 
-                                  <a href="https://t.me/dataprolearn " target="_blank"><span><i class="fa fa-telegram"></i></span></a> 
-                              </li>
-                              <li> 
-                                  <a href="https://www.youtube.com/channel/UCnwQLvEKYbSxHAwdbbbMwIg " target="_blank"><span><i class="fa fa-youtube"></i></span></a> 
-                              </li>
-                              <li> 
-                                  <a href="https://www.instagram.com/dataprolearn/ " target="_blank"><span><i class="fa fa-instagram"></i></span></a> 
-                              </li>
-                                                                       
-                          </ul>
-                    </div>
-                    <div class="col-lg-3 col-md-12 col-sm-12 footer-widget md-mb-50">
-                        <h3 class="widget-title">Address</h3>
-                        <ul class="address-widget">
-                            <li>
-                                <i class="flaticon-location"></i>
-                                <div class="desc"> Data PRO Learn</div>
-                            </li>
-                            <li>
-                                <i class="flaticon-call"></i>
-                                <div class="desc">
-                                   <a href="tel:+91-7093094469">+91-7093094469</a>
-                                </div>
-                            </li>
-                            <li>
-                                <i class="flaticon-email"></i>
-                                <div class="desc">
-                                    <a href="mailto:learn@dataprolearn.com">learn@dataprolearn.com</a>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col-lg-3 col-md-12 col-sm-12 pl-50 md-pl-15 footer-widget md-mb-50">
-                        <h3 class="widget-title">Courses</h3>
-                        <ul class="site-map">
-                            <li><a href="index.php">Home</a></li>
-                            <li><a href="course-categories.php">Course</a></li>
-                            <li><a href="about.php">About Us</a></li>
-                            <li><a href="blog-single.php">Blog</a></li>
-                            <li><a href="contact.php">Contact Us</a></li>
-                            
-                        </ul>
-                    </div>
-                    <div class="col-lg-3 col-md-12 col-sm-12 footer-widget">
-                        <h3 class="widget-title">Recent Posts</h3>
-                        <div class="recent-post mb-20">
-                            <div class="post-img">
-                                <img src="assets/images/footer/1.jpg" alt="">
-                            </div>
-                            <div class="post-item">
-                                <div class="post-desc">
-                                    <a href="#">University while the lovely valley team work</a>
-                                </div>
-                                <span class="post-date">
-                                    <i class="fa fa-calendar"></i>
-                                    September 20, 2020
-                                </span>
-                            </div>
-                        </div> 
-                        <div class="recent-post mb-20 md-pb-0">
-                            <div class="post-img">
-                                <img src="assets/images/footer/2.jpg" alt="">
-                            </div>
-                            <div class="post-item">
-                                <div class="post-desc">
-                                    <a href="#">High school program starting soon 2021</a>
-                                </div>
-                                <span class="post-date">
-                                   <i class="fa fa-calendar-check-o"></i>
-                                    September 14, 2020
-                                </span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="footer-bottom">
-            <div class="container">                    
-                <div class="row y-middle">
-                    <div class="col-lg-6 md-mb-20">
-                        <div class="copyright">
-                            <p>&copy; 2020 All Rights Reserved. Developed By <a href="http://appsron.com/">Appsron Technologies</a></p>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-    </footer>
+       <?PHP
+       include ('partials/footer.php')
+     ?>
     <!-- Footer End -->
 
         <!-- start scrollUp  -->

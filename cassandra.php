@@ -51,7 +51,7 @@
                                 <ul class="topbar-contact">
                                     <li>
                                         <i class="flaticon-email"></i>
-                                        <a href="mailto:learn@dataprolearn.com">learn@dataprolearn.com</a>
+                                        <a href="mailto: info@dataprolean">learn@dataprolearn.com</a>
                                     </li>
                                     <li>
                                         <i class="flaticon-location"></i>
@@ -163,7 +163,7 @@
                                                <a href="about.php">About Us</a></li>
                                                <li>
                                                 <a href="blog-single.php">Blog</a></li>
-                                                <li><a href="Forum.php">Forum</a></li>
+                                                <li><a href="javascript:void(0);">Forum</a></li>
                                             <li class="menu-item-has-children">
                                                 <a href="contact.php">Contact</a></li>
                                         </ul> <!-- //.nav-menu -->
@@ -343,31 +343,120 @@
                                             <div class="course-overview">
                                                 <div class="inner-box">
                                                     <h4>Course Details</h4>
-                                                    <p>Phasellus enim magna, varius et commodo ut, ultricies vitae velit. Ut nulla tellus, eleifend euismod pellentesque vel, sagittis vel justo. In libero urna, venenatis sit amet ornare non, suscipit nec risus. Sed consequat justo non mauris pretium at tempor justo sodales. Quisque tincidunt laoreet malesuada. Cum sociis natoque penatibus.</p>
-                                                    <p>Eleifend euismod pellentesque vel Phasellus enim magna, varius et commodo ut, ultricies vitae velit. Ut nulla tellus, sagittis vel justo. In libero urna, venenatis sit amet ornare non, suscipit nec risus. Sed consequat justo non mauris pretium at tempor justo sodales. Quisque tincidunt laoreet malesuada. Cum sociis natoque penatibus.</p>
+                                                    <p>Cassandra is a distributed database from Apache that is highly scalable and designed to manage huge amount of unstructured data. Apache Cassandra Certification Training covers Database Operations, Table Operations, Node Operations in a Cluster, Managing & Monitoring the Cluster, Backup/Restore, Performance Tuning, and Hosting Cassandra Database on Cloud. You will also learn to integrate Cassandra with other Apache frameworks like Hadoop, Spark, and Kafka.</p>
                                                     <ul class="student-list">
                                                         <li>23,564 Total Students</li>
                                                         <li><span class="theme_color">4.5</span> <span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span> (1254 Rating)</li>
                                                         <li>256 Reviews</li>
                                                     </ul>
                                                     <h3>What you’ll learn?</h3>
+                                                    <h3>Introduction to Big Data, and Cassandra</h3>
                                                     <ul class="review-list">
-                                                        <li>Phasellus enim magna, varius et commodo ut.</li>
-                                                        <li>Sed consequat justo non mauris pretium at tempor justo.</li>
-                                                        <li>Ut nulla tellus, eleifend euismod pellentesque vel, sagittis vel justo</li>
-                                                        <li>Phasellus enim magna, varius et commodo ut.</li>
-                                                        <li>Phasellus enim magna, varius et commodo ut.</li>
-                                                        <li>Sed consequat justo non mauris pretium at tempor justo.</li>
-                                                        <li>Ut nulla tellus, eleifend euismod pellentesque vel, sagittis vel justo</li>
-                                                        <li>Phasellus enim magna, varius et commodo ut.</li>
+                                                        <li>Introduction to Big Data and Problems caused by it</li>
+                                                        <li>5V – Volume, Variety, Velocity, Veracity and Value</li>
+                                                        <li>Traditional Database Management System</li>
+                                                        <li>Limitations of RDMS </li>
+                                                        <li>NOSQL databases</li>
+                                                        <li>Common characteristics of NoSQL databases</li>
+                                                        <li>CAP theorem</li>
+                                                        <li>How Cassandra solves the Limitations?</li>
+                                                        <li>History of Cassandra</li>
+                                                        <li>Features of Cassandra</li>
+                                                    </ul>
+                                                    <h3>Cassandra Data Model</h3>
+                                                    <ul class="review-list">
+                                                        <li>Introduction to Database Model</li>
+                                                        <li>Understand the analogy between RDBMS and Cassandra Data Model</li>
+                                                        <li>Understand following Database Elements: Cluster, Keyspace, Column Family/Table, Column</li>
+                                                        <li>Column Family Options </li>
+                                                        <li>Columns </li>
+                                                        <li>Wide Rows, Skinny Rows </li>
+                                                        <li>Static and dynamic tables</li>
+                                                    </ul>
+                                                    <h3>Cassandra Architecture</h3>
+                                                    <ul class="review-list">
+                                                        <li>• Cassandra as a Distributed Database</li>
+                                                        <li>• Key Cassandra Elements</li>
+                                                        <li>a. Memtable</li>
+                                                        <li>b. Commit log</li>
+                                                        <li>c. SSTables</li>
+                                                        <li>• Replication Factor</li>
+                                                        <li>• Data Replication in Cassandra</li>
+                                                        <li>• Gossip protocol – Detecting failures</li>
+                                                        <li>• Gossip: Uses</li>
+                                                        <li>• Snitch: Uses</li>
+                                                        <li>• Data Distribution</li>
+                                                        <li>• Staged Event-Driven Architecture (SEDA) </li>
+                                                        <li>• Managers and Services </li>
+                                                        <li>• Virtual Nodes: Write path and Read path</li>
+                                                        <li>• Consistency level</li>
+                                                        <li>• Repair</li>
+                                                        <li>• Incremental repair</li>
+                                                    </ul>
+                                                    <h3>Deep Dive into Cassandra Database</h3>
+                                                    <ul class="review-list">
+                                                        <li>• Replication Factor</li>
+                                                        <li>• Replication Strategy</li>
+                                                        <li>• Defining columns and data types</li>
+                                                        <li>• Defining a partition key</li>
+                                                        <li>• Recognizing a partition key</li>
+                                                        <li>• Specifying a descending clustering order</li>
+                                                        <li>• Updating data</li>
+                                                        <li>• Tombstones</li>
+                                                        <li>• Deleting data</li>
+                                                        <li>• Using TTL</li>
+                                                        <li>• Updating a TTL</li>
+                                                    </ul>
+                                                    <h3>Node Operations in a Cluster</h3>
+                                                    <ul class="review-list">
+                                                        <li>• Cassandra nodes</li>
+                                                        <li>• Specifying seed nodes</li>
+                                                        <li>• Bootstrapping a node</li>
+                                                        <li>• Adding a node (Commissioning) in Cluster</li>
+                                                        <li>• Removing (Decommissioning) a node</li>
+                                                        <li>• Removing a dead node</li>
+                                                        <li>• Repair</li>
+                                                        <li>• Read Repair</li>
+                                                        <li>• What’s new in incremental repair</li>
+                                                        <li>• Run a Repair Operation</li>
+                                                        <li>• Cassandra and Spark Implementation</li>
+                                                    </ul>
+                                                    <h3>Managing and Monitoring the Cluster</h3>
+                                                    <ul class="review-list">
+                                                        <li>• Cassandra monitoring tools</li>
+                                                        <li>• Logging </li>
+                                                        <li>• Tailing </li>
+                                                        <li>• Using Nodetool Utility</li>
+                                                        <li>• Using JConsole</li>
+                                                        <li>• Learning about OpsCenter</li>
+                                                        <li>• Runtime Analysis Tools</li>
+                                                    </ul>
+                                                    <h3>Backup & Restore and Performance Tuning</h3>
+                                                    <ul class="review-list">
+                                                        <li>• Creating a Snapshot</li>
+                                                        <li>• Restoring from a Snapshot</li>
+                                                        <li>• RAM and CPU recommendations</li>
+                                                        <li>• Hardware choices</li>
+                                                        <li>• Selecting storage</li>
+                                                        <li>• Types of Storage to Avoid</li>
+                                                        <li>• Cluster connectivity, security and the factors that affect distributed system performance</li>
+                                                        <li>• End-to-end performance tuning of Cassandra clusters against very large data sets</li>
+                                                        <li>• Load balance and streams</li>
+                                                    </ul>
+                                                    <h3>Hosting Cassandra Database on Cloud</h3>
+                                                    <ul class="review-list">
+                                                        <li>• Security</li>
+                                                        <li>• Ongoing Support of Cassandra Operational Data</li>
+                                                        <li>• Hosting a Cassandra Database on Cloud</li>
                                                     </ul>
                                                     <h3>Requirements</h3>
                                                     <ul class="review-list">
-                                                        <li>Phasellus enim magna, varius et commodo ut, ultricies vitae velit. Ut nulla tellus, eleifend euismod pellentesque vel, sagittis vel justo</li>
-                                                        <li>Ultricies vitae velit. Ut nulla tellus, eleifend euismod pellentesque vel.</li>
-                                                        <li>Phasellus enim magna, varius et commodo ut.</li>
-                                                        <li>Varius et commodo ut, ultricies vitae velit. Ut nulla tellus.</li>
-                                                        <li>Phasellus enim magna, varius et commodo ut.</li>
+                                                        <li>The following are the requirements for the system to smoothly run the programs:</li>
+                                                        <li>Minimum RAM required: 4GB (Suggested: 8GB)</li>
+                                                        <li>Minimum Free Disk Space: 25GB</li>
+                                                        <li>Minimum Processor i3 or above</li>
+                                                        <li>Operating System of 64bit</li>
+                                                        <li>Participant’s machines must support a 64-bit VirtualBox guest image</li>
                                                     </ul>                                                                                                          
                                                 </div>
                                             </div>                                                
@@ -819,113 +908,9 @@
 
         
        <!-- Footer Start -->
-       <footer id="rs-footer" class="rs-footer home9-style main-home">
-        <div class="footer-top">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-3 col-md-12 col-sm-12 footer-widget md-mb-50">
-                        <div class="footer-logo mb-30">
-                            <a href="index.php"><img src="assets/images/footer-logo.png" alt="Data Pro Learn"></a>
-                        </div>
-                          <div class="textwidget pr-60 md-pr-15"><p class="white-color">Our Speciality is providing ONE TO ONE Custom Trainings based on Learners Background & Career Golas.</p>
-                          </div>
-                          <ul class="footer_social">  
-                              
-                              <li> 
-                                  <a href="https://twitter.com/dataprolearn " target="_blank"><span><i class="fa fa-twitter"></i></span></a> 
-                              </li>
-
-                              <li> 
-                                  <a href="https://t.me/dataprolearn " target="_blank"><span><i class="fa fa-telegram"></i></span></a> 
-                              </li>
-                              <li> 
-                                  <a href="https://www.youtube.com/channel/UCnwQLvEKYbSxHAwdbbbMwIg " target="_blank"><span><i class="fa fa-youtube"></i></span></a> 
-                              </li>
-                              <li> 
-                                  <a href="https://www.instagram.com/dataprolearn/ " target="_blank"><span><i class="fa fa-instagram"></i></span></a> 
-                              </li>
-                                                                       
-                          </ul>
-                    </div>
-                    <div class="col-lg-3 col-md-12 col-sm-12 footer-widget md-mb-50">
-                        <h3 class="widget-title">Address</h3>
-                        <ul class="address-widget">
-                            <li>
-                                <i class="flaticon-location"></i>
-                                <div class="desc"> Data PRO Learn</div>
-                            </li>
-                            <li>
-                                <i class="flaticon-call"></i>
-                                <div class="desc">
-                                   <a href="tel:+91-7093094469">+91-7093094469</a>
-                                </div>
-                            </li>
-                            <li>
-                                <i class="flaticon-email"></i>
-                                <div class="desc">
-                                    <a href="mailto:learn@dataprolearn.com">learn@dataprolearn.com</a>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col-lg-3 col-md-12 col-sm-12 pl-50 md-pl-15 footer-widget md-mb-50">
-                        <h3 class="widget-title">Courses</h3>
-                        <ul class="site-map">
-                            <li><a href="index.php">Home</a></li>
-                            <li><a href="course-categories.php">Course</a></li>
-                            <li><a href="about.php">About Us</a></li>
-                            <li><a href="blog-single.php">Blog</a></li>
-                            <li><a href="contact.php">Contact Us</a></li>
-                            
-                        </ul>
-                    </div>
-                    <div class="col-lg-3 col-md-12 col-sm-12 footer-widget">
-                        <h3 class="widget-title">Recent Posts</h3>
-                        <div class="recent-post mb-20">
-                            <div class="post-img">
-                                <img src="assets/images/footer/1.jpg" alt="">
-                            </div>
-                            <div class="post-item">
-                                <div class="post-desc">
-                                    <a href="#">University while the lovely valley team work</a>
-                                </div>
-                                <span class="post-date">
-                                    <i class="fa fa-calendar"></i>
-                                    September 20, 2020
-                                </span>
-                            </div>
-                        </div> 
-                        <div class="recent-post mb-20 md-pb-0">
-                            <div class="post-img">
-                                <img src="assets/images/footer/2.jpg" alt="">
-                            </div>
-                            <div class="post-item">
-                                <div class="post-desc">
-                                    <a href="#">High school program starting soon 2021</a>
-                                </div>
-                                <span class="post-date">
-                                   <i class="fa fa-calendar-check-o"></i>
-                                    September 14, 2020
-                                </span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="footer-bottom">
-            <div class="container">                    
-                <div class="row y-middle">
-                    <div class="col-lg-6 md-mb-20">
-                        <div class="copyright">
-                            <p>&copy; 2020 All Rights Reserved. Developed By <a href="http://appsron.com/">Appsron Technologies</a></p>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-    </footer>
+       <?PHP
+       include ('partials/footer.php')
+     ?>
     <!-- Footer End -->
 
         <!-- start scrollUp  -->

@@ -38,11 +38,11 @@
         <link rel="stylesheet" type="text/css" href="style.css"> <!-- This stylesheet dynamically changed from style.less -->
         <!-- responsive css -->
         <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
         <!--online form pop-up-->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
@@ -65,7 +65,7 @@
                                 <ul class="topbar-contact">
                                     <li>
                                         <i class="flaticon-email"></i>
-                                        <a href="mailto:learn@dataprolearn.com">learn@dataprolearn.com</a>
+                                        <a href="mailto: info@dataprolean">learn@dataprolearn.com</a>
                                     </li>
                                     <li>
                                         <i class="flaticon-location"></i>
@@ -175,7 +175,7 @@
                                                    </li>
                                                     <li><a href="about.php">About Us</a></li>
                                                     <li><a href="blog-single.php">Blog</a></li>
-                                                    <li><a href="Forum.php">Forum</a></li>
+                                                    <li><a href="javascript:void(0);">Forum</a></li>
                                                     <li><a href="contact.php">Contact</a></li>
                                                      
                                                </ul> <!-- //.nav-menu -->
@@ -1083,119 +1083,9 @@
      
         </div> 
         <!-- Main content End -->
-     
-        <!-- Footer Start -->
-        <footer id="rs-footer" class="rs-footer home9-style main-home">
-            <div class="footer-top">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-3 col-md-12 col-sm-12 footer-widget md-mb-50">
-                            <div class="footer-logo mb-30">
-                                <a href="index.php"><img src="assets/images/footer-logo.png" alt="Data Pro Learn"></a>
-                            </div>
-                              <div class="textwidget pr-60 md-pr-15"><p class="white-color">Our Speciality is providing ONE TO ONE Custom Trainings based on Learners Background & Career Golas.
-                            </p>
-                              </div>
-                              <ul class="footer_social">  
-                                  
-                                  <li> 
-                                      <a href="https://twitter.com/dataprolearn " target="_blank"><span><i class="fa fa-twitter"></i></span></a> 
-                                  </li>
-
-                                  <li> 
-                                      <a href="https://t.me/dataprolearn " target="_blank"><span><i class="fa fa-telegram"></i></span></a> 
-                                  </li>
-                                  <li> 
-                                      <a href="https://www.youtube.com/channel/UCnwQLvEKYbSxHAwdbbbMwIg " target="_blank"><span><i class="fa fa-youtube"></i></span></a> 
-                                  </li>
-                                  <li> 
-                                      <a href="https://www.instagram.com/dataprolearn/ " target="_blank"><span><i class="fa fa-instagram"></i></span></a> 
-                                  </li>
-                                                                           
-                              </ul>
-                        </div>
-                        <div class="col-lg-3 col-md-12 col-sm-12 footer-widget md-mb-50">
-                            <h3 class="widget-title">Address</h3>
-                            <ul class="address-widget">
-                                <li>
-                                    <i class="flaticon-location"></i>
-                                    <div class="desc"> Data PRO Learn</div>
-                                </li>
-                                <li>
-                                    <i class="flaticon-call"></i>
-                                    <div class="desc">
-                                       <a href="tel:+91-7093094469">+91-7093094469</a>
-                                    </div>
-                                </li>
-                                <li>
-                                    <i class="flaticon-email"></i>
-                                    <div class="desc">
-                                        <a href="mailto:learn@dataprolearn.com">learn@dataprolearn.com</a>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="col-lg-3 col-md-12 col-sm-12 pl-50 md-pl-15 footer-widget md-mb-50">
-                            <h3 class="widget-title">Courses</h3>
-                            <ul class="site-map">
-                                <li><a href="index.php">Home</a></li>
-                                <li><a href="course-categories.php">Course</a></li>
-                                <li><a href="about.php">About Us</a></li>
-                                <li><a href="blog-single.php">Blog</a></li>
-                                <li><a href="contact.php">Contact Us</a></li>
-                                
-                            </ul>
-                        </div>
-                        <div class="col-lg-3 col-md-12 col-sm-12 footer-widget">
-                            <h3 class="widget-title">Recent Posts</h3>
-                            <div class="recent-post mb-20">
-                                <div class="post-img">
-                                    <img src="assets/images/footer/1.jpg" alt="">
-                                </div>
-                                <div class="post-item">
-                                    <div class="post-desc">
-                                        <a href="blog-single.php">University while the lovely valley team work</a>
-                                    </div>
-                                    <span class="post-date">
-                                        <i class="fa fa-calendar"></i>
-                                        June 20, 2021
-                                    </span>
-                                </div>
-                            </div> 
-                            <div class="recent-post mb-20 md-pb-0">
-                                <div class="post-img">
-                                    <img src="assets/images/footer/2.jpg" alt="">
-                                </div>
-                                <div class="post-item">
-                                    <div class="post-desc">
-                                        <a href="blog-single.php">High school program starting soon 2021</a>
-                                    </div>
-                                    <span class="post-date">
-                                       <i class="fa fa-calendar-check-o"></i>
-                                        June 14, 2021
-                                    </span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="footer-bottom">
-                <div class="container">                    
-                    <div class="row y-middle">
-                        <div class="col-lg-6 md-mb-20">
-                            <div class="copyright">
-                                <p>&copy; 2021 All Rights Reserved. Developed By <a href="http://appsron.com/">Appsron Technologies</a></p>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-        </footer>
-        <!-- Footer End -->
-
-
+     <?PHP
+       include ('partials/footer.php')
+     ?>
         <!-- start scrollUp  -->
         <div id="scrollUp" class="orange-color">
             <i class="fa fa-angle-up"></i>
