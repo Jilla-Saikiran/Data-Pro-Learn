@@ -5,7 +5,7 @@
 $servername = "localhost";
 $username = "root";
 $password = "";
-$dbname = "DPL";
+$dbname = "dataprolearn";
 
 // Create connection
 $conn = mysqli_connect($servername, $username, $password, $dbname);

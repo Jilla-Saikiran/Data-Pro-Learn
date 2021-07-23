@@ -173,7 +173,7 @@
 						</a>
                         
 
-					<!--<li><a class="has-arrow" href="javascript:void()" aria-expanded="false">
+					 <!--<li><a class="has-arrow" href="javascript:void()" aria-expanded="false">
 							<i class="la la-user"></i>
 							<span class="nav-text">Professors</span>
 						</a>
@@ -184,6 +184,7 @@
                             <li><a href="professor-profile.php">Professor Profile</a></li>
                         </ul>
                     </li>-->
+
 					<li><a class="has-arrow" href="javascript:void()" aria-expanded="false">
 							<i class="la la-users"></i>
 							<span class="nav-text">Students</span>
@@ -251,6 +252,12 @@
 												<input type="text" name="name" id="name" class="form-control">
 											</div>
 										</div>
+                                        <div class="col-lg-12 col-md-12 col-sm-12">
+											<div class="form-group">
+												<label for="picture" class="form-label d-block">Course image</label>
+												<input type="file" id="picture" name="file">
+											</div>
+										</div>
 										<div class="col-lg-12 col-md-12 col-sm-12">
 											<button type="submit" class="btn btn-primary">Submit</button>
 											
@@ -279,14 +286,6 @@
         </div>
         <!--**********************************
             Footer end
-        ***********************************-->
-
-		<!--**********************************
-           Support ticket button start
-        ***********************************-->
-
-        <!--**********************************
-           Support ticket button end
         ***********************************-->
 
 

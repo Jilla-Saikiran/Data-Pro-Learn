@@ -2,7 +2,6 @@
 <html lang="en">
 <?php
 include('adminpartials/session.php');
-
 ?>
 
 <head>
@@ -279,6 +278,12 @@ include('adminpartials/session.php');
 												<input type="text" name="course_name" id="course_name" class="form-control">
 											</div>
 										</div>
+                                        <div class="col-lg-6 col-md-6 col-sm-12">
+											<div class="form-group">
+												<label class="form-label">Course Price</label>
+												<input type="text" name="course_price" id="course_price" class="form-control">
+											</div>
+										</div>
 										
 										<div class="col-lg-12 col-md-12 col-sm-12">
 											<div class="form-group">
@@ -286,19 +291,9 @@ include('adminpartials/session.php');
 												<textarea name="course_details" id="course_details" class="form-control" rows="5"></textarea>
 											</div>
 										</div>
-
-
-										<div class="col-lg-6 col-md-6 col-sm-12">
-											<div class="form-group">
-												<label class="form-label">Course Price</label>
-												<input type="text" name="course_price" id="course_price" class="form-control">
-											</div>
-										</div>
-                                      
-										
 										<div class="col-lg-12 col-md-12 col-sm-12">
 											<div class="form-group">
-												<label for="file" class="form-label d-block">Course image</label>
+												<label for="picture" class="form-label d-block">Course image</label>
 												<input type="file" id="picture" name="file">
 											</div>
 										</div>
@@ -330,14 +325,6 @@ include('adminpartials/session.php');
         </div>
         <!--**********************************
             Footer end
-        ***********************************-->
-
-		<!--**********************************
-           Support ticket button start
-        ***********************************-->
-
-        <!--**********************************
-           Support ticket button end
         ***********************************-->
 
 
