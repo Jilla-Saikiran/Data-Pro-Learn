@@ -252,16 +252,10 @@ include('adminpartials/session.php');
 									</div>
 									<div class="card-body">
 										<div class="table-responsive">
-											<?php
-											include('adminpartials/conn.php');
-											$sql="SELECT * FROM user_register";
-											$results=mysqli_query($conn,$sql);
-											while ($row=mysqli_fetch_assoc($results))
-											?>
+											
 											<table id="example3" class="display" style="min-width: 845px">
 												<thead>
 													<tr>
-														
 														<th>ID</th>
 														<th>first_name</th>
 														<th>last_name</th>
@@ -272,32 +266,28 @@ include('adminpartials/session.php');
 													</tr>
 												</thead>
 												<tbody>
-													<tr>
-														
-														<td><strong>01</strong></td>
-														<td>Tiger Nixon</td>
-														<td>M.COM., P.H.D.</td>
-														<td><a href="javascript:void(0);"><strong>123 456 7890</strong></a></td>
-														<td><a href="javascript:void(0);"><strong>info@example.com</strong></a></td>
-														<td>2011/04/25</td>
+												<?php
+											include('adminpartials/conn.php');
+											$sql="SELECT * FROM user_register";
+											$results=mysqli_query($conn,$sql);
+											while ($row=mysqli_fetch_assoc($results))
+											echo  '<tr>
+													<?php	
+													<td></td>
+														<td><strong>'.$row['id'].'</strong></td>
+														<td>'.$row['first_name'].'</td>
+														<td>'.$row['last_name'].'</td>
+														<td><a href="javascript:void(0);"><strong>'.$row['email'].'</strong></a></td>
+														<td><a href="javascript:void(0);"><strong>'.$row['phone'].'</strong></a></td>
+														<td>'.$row['password'].'</td>
+														<td>'.$row['course_id'].'</td>
 														<td>
 															<a href="javascript:void(0);" class="btn btn-sm btn-primary"><i class="la la-pencil"></i></a>
 															<a href="javascript:void(0);" class="btn btn-sm btn-danger"><i class="la la-trash-o"></i></a>
 														</td>												
-													</tr>
-													<tr>
+													</tr>'?>
+												
 
-														<td><strong>02</strong></td>
-														<td>Garrett Winters</td>
-														<td>M.COM., P.H.D.</td>
-														<td><a href="javascript:void(0);"><strong>987 654 3210</strong></a></td>
-														<td><a href="javascript:void(0);"><strong>info@example.com</strong></a></td>
-														<td>2011/07/25</td>
-														<td>
-															<a href="javascript:void(0);" class="btn btn-sm btn-primary"><i class="la la-pencil"></i></a>
-															<a href="javascript:void(0);" class="btn btn-sm btn-danger"><i class="la la-trash-o"></i></a>
-														</td>
-													</tr>
 													
 													
 												</tbody>

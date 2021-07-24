@@ -158,7 +158,7 @@ include('adminpartials/session.php');
             Header end ti-comment-alt
         ***********************************-->
 
- <!--**********************************
+        <!--**********************************
             Sidebar start
         ***********************************-->
         <div class="dlabnav">
@@ -235,6 +235,45 @@ include('adminpartials/session.php');
                 </div>
 				
 				<div class="row">
+                <?php
+                include('adminpartials/conn.php');
+                $sql="SELECT * FROM user_register";
+                $results=mysqli_query($conn,$sql);
+                while ($row=mysqli_fetch_assoc($results))
+                echo "<div class=\"col-md-3 col-sm-6 my-3 my-md-0\">
+                                <form action=\"index.php\" method=\"post\">
+                                    <div class=\"card shadow\">
+                                        <div>
+                                            <img src=".$row['course_img']." alt=\"Image1\" class=\"img-fluid card-img-top\">
+                                        </div>
+                                        <div class=\"card-body\">
+                                            <h5 class=\"card-title\">.$row['course_name'].</h5>
+                                            <h6>
+                                                <i class=\"fas fa-star\"></i>
+                                                <i class=\"fas fa-star\"></i>
+                                                <i class=\"fas fa-star\"></i>
+                                                <i class=\"fas fa-star\"></i>
+                                                <i class=\"far fa-star\"></i>
+                                            </h6>
+                                            <p class=\"card-text\">
+                                                Some quick example text to build on the card.
+                                            </p>
+                                            <h5>
+                                                <small><s class=\"text-secondary\">$519</s></small>
+                                                <span class=\"price\">.$row['price'].</span>
+                                            </h5>
+                
+                                            <button type=\"submit\" class=\"btn btn-warning my-3\" name=\"add\">Add to Cart <i class=\"fas fa-shopping-cart\"></i></button>
+                                             <input type='hidden' name='product_id' value=''>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                    ";
+                    echo $element;
+?>
+
+
 					<div class="col-xl-3 col-xxl-4 col-lg-4 col-md-6 col-sm-6">
 						<div class="card">
 							<img class="img-fluid" src="images/courses/pic1.jpg" alt="">
@@ -254,6 +293,7 @@ include('adminpartials/session.php');
 							</div>
 						</div>
 					</div>
+
 					<div class="col-xl-3 col-xxl-4 col-lg-4 col-md-6 col-sm-6">
 						<div class="card">
 							<img class="img-fluid" src="images/courses/pic2.jpg" alt="">

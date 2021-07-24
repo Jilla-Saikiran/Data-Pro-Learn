@@ -7,7 +7,6 @@ $category_id=$_POST['category'];
 $course_name = $_POST['course_name'];
 $course_details =  $_POST['course_details'];
 $course_price= $_POST['course_price'];
-
 $target="../uploads/";
 $file_path=$target.basename($_FILES['file']['name']);
 $file_name=$_FILES['file']['name'];

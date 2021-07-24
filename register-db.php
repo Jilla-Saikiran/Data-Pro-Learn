@@ -12,7 +12,7 @@ include('conn.php');
 
       
 
-    $sql = "INSERT INTO Register (First_Name,	Last_Name, Email, Phone, Password)
+    $sql = "INSERT INTO user_register(first_name,	last_name, email, phone,password)
 VALUES ('".$firstname."','".$lastname."','".$email."','".$phone."','".$password."')";
 
 if (mysqli_query($conn, $sql)) {

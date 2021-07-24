@@ -248,13 +248,13 @@
 									<div class="row">
                                     <div class="col-lg-6 col-md-6 col-sm-12">
 											<div class="form-group">
-												<label class="form-label">Course Category Name</label>
+												<label class="form-label">Category Name</label>
 												<input type="text" name="name" id="name" class="form-control">
 											</div>
 										</div>
                                         <div class="col-lg-12 col-md-12 col-sm-12">
 											<div class="form-group">
-												<label for="picture" class="form-label d-block">Course image</label>
+												<label for="picture" class="form-label d-block">Category image</label>
 												<input type="file" id="picture" name="file">
 											</div>
 										</div>

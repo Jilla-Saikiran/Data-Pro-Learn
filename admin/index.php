@@ -270,168 +270,45 @@ include('adminpartials/session.php');
                             </div>
                             <div class="card-body">
                                 <div class="table-responsive">
-                                    <table class="table table-sm mb-0 table-striped">
-                                        <thead>
-                                            <tr>
-												<th class="px-5 py-3">Name</th>
-                                                <th class="py-3">Course</th>
-                                                <th class="py-3">Institutes Names</th>
-                                                <th class="py-3">Status</th>
-                                                <th class="py-3">Admission Date</th>
-                                                <th class="py-3">Action</th>
-                                            </tr>
-                                        </thead>
-                                        <tbody id="customers">
-                                            <tr class="btn-reveal-trigger">
-                                                <td class="p-3">
-                                                    <a href="javascript:void(0);">
-                                                        <div class="media d-flex align-items-center">
-                                                            <div class="avatar avatar-xl mr-2">
-                                                            </div>
-                                                            <div class="media-body">
-                                                                <h5 class="mb-0 fs--1"><a href="../student-profile.php">Ricky Antony</a></h5>
-                                                            </div>
-                                                        </div>
-                                                    </a>
-                                                </td>
-                                                
-                                                
-                                                <td><span class="">Fashion & Apparel Design</span></td>
-									 <td class="py-2"><a href="institute-profile.php"><strong>Andhra Mahila Sabha Mphw F Trg Inst,Hyderabad</strong></a></td>
-										<td class="py-2">Studying</td>
+                                <table id="example3" class="display" style="min-width: 845px">
+												<thead>
+													<tr>
+														<th>ID</th>
+														<th>first_name</th>
+														<th>last_name</th>
+														<th>email</th>
+														<th>phone</th>
+														<th>password</th>
+														<th>course_id</th>
+													</tr>
+												</thead>
+												<tbody>
+												<?php
+											include('adminpartials/conn.php');
+											$sql="SELECT * FROM user_register";
+											$results=mysqli_query($conn,$sql);
+											while ($row=mysqli_fetch_assoc($results))
+											echo  '<tr>
+													<?php	
+													<td></td>
+														<td><strong>'.$row['id'].'</strong></td>
+														<td>'.$row['first_name'].'</td>
+														<td>'.$row['last_name'].'</td>
+														<td><a href="javascript:void(0);"><strong>'.$row['email'].'</strong></a></td>
+														<td><a href="javascript:void(0);"><strong>'.$row['phone'].'</strong></a></td>
+														<td>'.$row['password'].'</td>
+														<td>'.$row['course_id'].'</td>
+														<td>
+															<a href="javascript:void(0);" class="btn btn-sm btn-primary"><i class="la la-pencil"></i></a>
+															<a href="javascript:void(0);" class="btn btn-sm btn-danger"><i class="la la-trash-o"></i></a>
+														</td>												
+													</tr>'?>
+												
 
-                                                <td class="py-2">30/03/2018</td>
-                                                <td>
-                                                    <a href="../edit-student.php" class="btn btn-sm btn-primary"><i class="la la-pencil"></i></a>
-                                                    <a href="javascript:void(0);" class="btn btn-sm btn-danger"  onclick="myFunction()"><i class="la la-trash-o"></i></a>
 													
-                                                </td>
-                                            </tr>
-                                                              <tr class="btn-reveal-trigger">
-                                                <td class="p-3">
-                                                    <a href="javascript:void(0);">
-                                                        <div class="media d-flex align-items-center">
-                                                            <div class="avatar avatar-xl mr-2">
-                                                            </div>
-                                                            <div class="media-body">
-                                                                <h5 class="mb-0 fs--1"><a href="../student-profile.php">Ricky Antony</a></h5>
-                                                            </div>
-                                                        </div>
-                                                    </a>
-                                                </td>
-                                                
-                                                
-                                                <td><span class="">Fashion & Apparel Design</span></td>
-									 <td class="py-2"><a href="institute-profile.php"><strong>Andhra Mahila Sabha Mphw F Trg Inst,Hyderabad</strong></a></td>
-										<td class="py-2"><a href="javascript:void(0);"><strong>completed</strong></a></td>
-
-                                                <td class="py-2">30/03/2018</td>
-                                                <td>
-                                                    <a href="edit-student.php" class="btn btn-sm btn-primary"><i class="la la-pencil"></i></a>
-                                                    <a href="javascript:void(0);" class="btn btn-sm btn-danger" onclick="myFunction()"><i class="la la-trash-o"></i></a>
-                                                </td>
-                                            </tr>
-                                                              <tr class="btn-reveal-trigger">
-                                                <td class="p-3">
-                                                    <a href="javascript:void(0);">
-                                                        <div class="media d-flex align-items-center">
-                                                            <div class="avatar avatar-xl mr-2">
-                                                            </div>
-                                                            <div class="media-body">
-                                                                <h5 class="mb-0 fs--1"><a href="student-profile.php">Ricky Antony</a></h5>
-                                                            </div>
-                                                        </div>
-                                                    </a>
-                                                </td>
-                                                
-                                                
-                                                <td><span class="">Fashion & Apparel Design</span></td>
-									 <td class="py-2"><a href="institute-profile.php"><strong>Andhra Mahila Sabha Mphw F Trg Inst,Hyderabad</strong></a></td>
-										<td class="py-2"><a href="javascript:void(0);"><strong>Studying</strong></a></td>
-
-                                                <td class="py-2">30/03/2018</td>
-                                                <td>
-                                                    <a href="edit-student.php" class="btn btn-sm btn-primary"><i class="la la-pencil"></i></a>
-                                                    <a href="javascript:void(0);" class="btn btn-sm btn-danger" onclick="myFunction()"><i class="la la-trash-o"></i></a>
-                                                </td>
-                                            </tr>
-                                                             <tr class="btn-reveal-trigger">
-                                                <td class="p-3">
-                                                    <a href="javascript:void(0);">
-                                                        <div class="media d-flex align-items-center">
-                                                            <div class="avatar avatar-xl mr-2">
-                                                            </div>
-                                                            <div class="media-body">
-                                                                <h5 class="mb-0 fs--1"><a href="student-profile.php">Ricky Antony</a></h5>
-                                                            </div>
-                                                        </div>
-                                                    </a>
-                                                </td>
-                                                
-                                                
-                                                <td><span class="">Fashion & Apparel Design</span></td>
-									 <td class="py-2"><a href="institute-profile.php"><strong>Andhra Mahila Sabha Mphw F Trg Inst,Hyderabad</strong></a></td>
-										<td class="py-2"><a href="javascript:void(0);"><strong>completed</strong></a></td>
-
-                                                <td class="py-2">30/03/2018</td>
-                                                <td>
-                                                    <a href="edit-student.php" class="btn btn-sm btn-primary"><i class="la la-pencil"></i></a>
-                                                    <a href="javascript:void(0);" class="btn btn-sm btn-danger" onclick="myFunction()"><i class="la la-trash-o"></i></a>
-                                                </td>
-                                            </tr>
-                                            <tr class="btn-reveal-trigger">
-                                                             <tr class="btn-reveal-trigger">
-                                                <td class="p-3">
-                                                    <a href="javascript:void(0);">
-                                                        <div class="media d-flex align-items-center">
-                                                            <div class="avatar avatar-xl mr-2">
-                                                            </div>
-                                                            <div class="media-body">
-                                                                <h5 class="mb-0 fs--1"><a href="student-profile.php">Ricky Antony</a></h5>
-                                                            </div>
-                                                        </div>
-                                                    </a>
-                                                </td>
-                                                
-                                                
-                                                <td><span class="">Fashion & Apparel Design</span></td>
-									 <td class="py-2"><a href="institute-profile.php"><strong>Andhra Mahila Sabha Mphw F Trg Inst,Hyderabad</strong></a></td>
-										<td class="py-2"><a href="javascript:void(0);"><strong>Studying</strong></a></td>
-
-                                                <td class="py-2">30/03/2018</td>
-                                                <td>
-                                                    <a href="edit-student.php" class="btn btn-sm btn-primary"><i class="la la-pencil"></i></a>
-                                                    <a href="javascript:void(0);" class="btn btn-sm btn-danger" onclick="myFunction()"><i class="la la-trash-o"></i></a>
-                                                </td>
-                                            </tr>
-                                            <tr class="btn-reveal-trigger">
-                                                             <tr class="btn-reveal-trigger">
-                                                <td class="p-3">
-                                                    <a href="javascript:void(0);">
-                                                        <div class="media d-flex align-items-center">
-                                                            <div class="avatar avatar-xl mr-2">
-                                                            </div>
-                                                            <div class="media-body">
-                                                                <h5 class="mb-0 fs--1"><a href="student-profile.php">Ricky Antony</a></h5>
-                                                            </div>
-                                                        </div>
-                                                    </a>
-                                                </td>
-                                                
-                                                
-                                                <td><span class="">Fashion & Apparel Design</span></td>
-									 <td class="py-2"><a href="institute-profile.php"><strong>Andhra Mahila Sabha Mphw F Trg Inst,Hyderabad</strong></a></td>
-										<td class="py-2"><a href="javascript:void(0);"><strong>Completed</strong></a></td>
-
-                                                <td class="py-2">30/03/2018</td>
-                                                <td>
-                                                    <a href="edit-student.php" class="btn btn-sm btn-primary"><i class="la la-pencil"></i></a>
-                                                    <a href="javascript:void(0);" class="btn btn-sm btn-danger" onclick="myFunction()"><i class="la la-trash-o"></i></a>
-                                                </td>
-                                            </tr>
-                                            
-                                        </tbody>
-                                    </table>
+													
+												</tbody>
+											</table>
                                 </div>
                             </div>
                         </div>

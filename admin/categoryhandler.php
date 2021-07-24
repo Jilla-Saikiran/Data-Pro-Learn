@@ -5,6 +5,7 @@ $name = $_POST['name'];
 
 
 $target="../uploads/";
+print_r($_FILES);
 $file_path=$target.basename($_FILES['file']['name']);
 $file_name=$_FILES['file']['name'];
 $file_tmp=$_FILES['file']['tmp_name'];
